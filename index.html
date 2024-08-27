@@ -46,7 +46,7 @@
    <header class="bg-gray-100">
 
     <!-- nav- start -->
-    <nav class="container mx-auto  ">
+    <nav class="  lg:container   mx-auto  ">
         <div class="navbar ">
             <div class="navbar-start">
               
@@ -70,62 +70,60 @@
                
               </ul>
             </div>
-            <div class="navbar-end  gap-2">
+            <div class="navbar-end   ">
 
-              <div class="w-10 h-10 flex items-center  justify-center   text-black bg-white text-center rounded-full">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-              <div class="w-10 h-10 flex items-center  justify-center   text-black bg-white text-center rounded-full">
-                <i class="fa-solid fa-cart-shopping "></i>
-              </div>
-              <a class="btn bg-lime-400  rounded-full
-               text-lg font-bold">Book consult
-                <div class="w-7 h-7  text-white  rounded-full text-center -rotate-45  bg-black">
-                  <i class="fa-solid fa-arrow-right "></i>
-               </div>
-              </a>
+              <div class="md:visible invisible flex   gap-2">
+                <div class="w-10 h-10 flex items-center  justify-center   text-black bg-white text-center rounded-full">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="w-10 h-10 flex items-center  justify-center   text-black bg-white text-center rounded-full">
+                  <i class="fa-solid fa-cart-shopping "></i>
+                </div>
+                <a class="btn bg-lime-400  rounded-full
+                 text-lg font-bold">Book consult
+                  <div class="w-7 h-7  text-white  rounded-full text-center -rotate-45  bg-black">
+                    <i class="fa-solid fa-arrow-right "></i>
+                 </div>
+                </a>
               
+                
+
+              </div>
+
+
+             
 
               
             </div>
+
+
+            <div class="dropdown">
+              <div  class=" lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 ">
+                <li><a>Home</a></li>
+             
+              <li><a>Services</a></li>
+  
+              <li><a>Portfolio</a></li>
+             
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+             
+              </ul>
+            </div> 
 
           </div>
 
-<!--           
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Home</a></li>
-           
-            <li><a>Services</a></li>
 
-            <li><a>Portfolio</a></li>
-           
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
-           
-            </ul>
-          </div> -->
 
           
     </nav>
 
-    <banner class="container mx-auto border-4 ">
+    <banner class="container mx-auto  ">
       <div class="card  shadow-xl flex      items-center       justify-center">
         <img class="max-w-lg"    src="./assets/banner.png" alt="">
         <div class="card-body text-center ">
@@ -145,6 +143,64 @@
     </banner>
 
    </header>
+     <!--header part end  -->
+     <!-- main part start -->
+      <main class="bg-gray-100">
+        <!-- design thoughtful section -->
+         <section class="container mx-auto   p-20  ">
+                <div class="flex relative" >
+                    <div >
+                      <div class="btn  rounded-full  text-base font-medium  bg-white">
+                        <a href="">
+                          <i class="fa-solid fa-arrow-right"></i>
+                          About  Us</a>
+                      </div>
+                         <div>
+                        <h1 class="text-4xl font-bold p-3  text-black text-gray-700">We design thoughtful, 
+                            liveable spaces</h1>
+                            <p class="text-base font-medium  pt-5 ">he barn house captivates with its blend of rustic charm and <br>  modern sophistication, featuring weathered wood, sleek metal accents. </p>
+
+                         </div>
+                         <div>
+                              <div class=" rounded-full mr-8 ">
+                            <div class="flex gap-6  p-4  bg-white       mt-6">
+                              <img src="./assets/commercial.png" alt="">
+                               <div class="flex-initial w-90  ">
+                                <h2>Commercial</h2>
+                                <p>The barn house captivates with its blend <br>
+                                  of rustic charm and modern</p>
+                               </div>
+                              </div>
+                            </div>
+
+                            <div class=" rounded-full mr-8 ">
+                              <div class="flex gap-6  p-4  bg-white       mt-6">
+                                <img src="./assets/residential.png" alt="">
+                                 <div class="flex-initial w-90  ">
+                                  <h2>Commercial</h2>
+                                  <p>The barn house captivates with its blend <br>
+                                    of rustic charm and modern</p>
+                                 </div>
+                                </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="absolute h-20 w-20 -left-14 -top-14 mr-0 ">
+                       <img class="max-w-lg"  src="./assets/Vector.png" alt="">
+                    </div>
+                    <div">
+                        <img class="max-w-lg"    src="./assets/Rectangle.png" alt="">
+                    </div>
+                </div>
+         </section>
+        
+
+      </main>
+
+      <footer>
+
+      </footer>
+
 
    
     
